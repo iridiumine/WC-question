@@ -7,11 +7,6 @@
 int counts_letters = 0, counts_words = 0, counts_lines = 0;
 int counts_null_lines = 0, counts_code_lines = 0, counts_comment_lines = 0;
 
-void Counts_lines(FILE *fp);
-void Counts_words(FILE *fp);
-void Counts_letters(FILE *fp);
-void Counts_lines_details(FILE *fp);
-
 void Counts_lines(FILE *fp) {
     char ch = fgetc(fp);
     
